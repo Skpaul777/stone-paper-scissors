@@ -79,6 +79,9 @@ reset.addEventListener( "click" ,() => {
     userScorePara.innerText = 0;
     compScorePara.innerText = 0;
     console.log("reset clicked");
+    msg.innerText = "Play Your Move";
+    msg.style.backgroundColor ="aquamarine";
+    msg.style.color = "blueviolet";
 
 })
 
